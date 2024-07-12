@@ -1,0 +1,28 @@
+file_type: csv
+dataset_name: coldones
+file_name: brewery_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Batch_ID
+    - Brew_Date
+    - Beer_Style
+    - SKU
+    - Location
+    - Fermentation_Time
+    - Temperature
+    - PH_level
+    - Gravity
+    - Alcohol_Content
+    - Bitterness
+    - Color
+    - Ingredient_Ratio
+    - Volume_Produced
+    - Total_Sales
+    - Quality_Score
+    - Brewhouse_Efficiency
+    - Loss_During_Brewing
+    - Loss_during_Fermentation
+    - Loss_During_Bottling_Kegging
